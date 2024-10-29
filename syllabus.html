@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Cyber Security Course Syllabus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .module {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .module-header {
+            background-color: #6c63ff;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .module-content {
+            padding: 15px;
+            display: none;
+            background-color: #f9f9f9;
+        }
+
+        .module-content.active {
+            display: block;
+        }
+
+        .download-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .download-section input {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 150px;
+        }
+
+        .download-section button {
+            padding: 10px 20px;
+            background-color: #6c63ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .download-section button:hover {
+            background-color: #514ab3;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #4A3FCE;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            height: 50px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .login-btn {
+            background-color: white;
+            color: #4A3FCE;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #F5F5F5;
+        }
+        
+        .hero-text {
+            max-width: 600px;
+        }
+        
+        .hero-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .hero-text h2 {
+            color: #4A3FCE;
+        }
+        
+        .hero-text ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .hero-text ul li {
+            margin-bottom: 10px;
+        }
+        
+        .form-container {
+            background-color: #4A3FCE;
+            padding: 30px;
+            border-radius: 10px;
+            color: white;
+            width: 500px;
+        }
+        
+        .form-container h3 {
+            margin-bottom: 10px;
+        }
+        
+        .form-container p {
+            margin-bottom: 20px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        form input, form select, .submit-btn {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        
+        .submit-btn {
+            background-color: #FFA500;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .contact {
+            margin-top: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4A3FCE;
+            color: white;
+            margin-top: 50px;
+        }
+        .navbar{
+            display:flex;
+            width:100%;
+            height:100%;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .image{
+            width:5%;
+            height:100%;
+        }
+        .lists{
+            width:80%;
+            height:100%;
+            
+        }
+        .buttons{
+            width:20%;
+            height:100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .certificate-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .certificate-content {
+            width: 50%;
+        }
+
+        .certificate-content h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .certificate-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .certificate-content ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .certificate-content ul li::before {
+            content: '1';
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .certificate-content ul li:nth-child(2)::before {
+            content: '2';
+        }
+
+        .certificate-content ul li:nth-child(3)::before {
+            content: '3';
+        }
+
+        .certificate-image {
+            width: 45%;
+        }
+
+        .certificate-image img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="image"><img src="logo.jpeg" alt="Logo" class="logo"></div>
+            <div class="lists">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore Courses</a></li>
+                    <li><a href="syllabus.html">Syllabus</a></li>
+                    <li><a href="faq.html">FAQ'S</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+            <div class="buttons"><a href="login.html" class="login-btn">Login</a></div>
+            
+        </div>
+    </header>
+<div class="container">
+    <h1>Advance Cyber Security Course Syllabus</h1>
+    
+    <div class="module">
+        <div class="module-header">Module 1 - Basics of Linux</div>
+        <div class="module-content">
+            <p>Assuming you have little to no experience with Linux, this session will cover the basics of what you need to know to get started. We will briefly touch on topics such as what Linux is, why it is important, where you can download it, and how to install it. By the end of this session, you should have a better understanding of Linux and be able to take your first steps in using it.</p>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="module-header">Module 2 - Introduction to Ethical Hacking</div>
+        <div class="module-content">
+            <p>Introduction to ethical hacking techniques, understanding threats, and security vulnerabilities.</p>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="module-header">Module 3 - Footprinting and Reconnaissance</div>
+        <div class="module-content">
+            <p>Learn how to gather information and map out networks for security assessments.</p>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="module-header">Module 4 - Scanning Networks</div>
+        <div class="module-content">
+            <p>Understanding network scanning tools and techniques for vulnerability identification.</p>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="module-header">Module 5 - Enumeration</div>
+        <div class="module-content">
+            <p>Dive into enumeration techniques, focusing on extracting information from systems and networks.</p>
+        </div>
+    </div>
+
+    <div class="download-section">
+        <p>Looking for the complete module?</p>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Mobile" />
+        <button>Download Brochure</button>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Certificates You Will Receive Post Completion of Advance Cyber Security Course</h1>
+    
+    <div class="certificate-section">
+        <div class="certificate-content">
+            <h2>Certificates you will receive:</h2>
+            <ul>
+                <li>We acknowledge your hard work and dedication towards the program by bestowing a course completion certificate from Yhills.</li>
+                <li>We also provide internship certificates from Yhills and top-hole universities after successful completion of the internship.</li>
+                <li>We purvey an industry certificate from renowned and prestigious companies as an incentive.</li>
+            </ul>
+        </div>
+
+        <div class="certificate-image">
+            <img src="certificate.png" alt="Sample Certificate">
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript for toggling content
+    const modules = document.querySelectorAll('.module-header');
+
+    modules.forEach(module => {
+        module.addEventListener('click', () => {
+            const content = module.nextElementSibling;
+            content.classList.toggle('active');
+        });
+    });
+</script>
+
+</body>
+</html>
